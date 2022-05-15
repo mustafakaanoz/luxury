@@ -1,9 +1,12 @@
+import React, { useEffect, useState } from "react";
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import "./index.css"
 
 function App() {
   return (
-    <div className="App">
-      <img src="./img/logo.png"></img>
+    <div className="container">
+      <Navbar />
     </div>
   );
 }
