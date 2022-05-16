@@ -50,6 +50,11 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  color: #fea100;
+  transition: .5s ease;
+}
+
 .nav_btn_background {
   display: flex;
   align-items: center;

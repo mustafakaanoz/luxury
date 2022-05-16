@@ -1,0 +1,141 @@
+.banner {
+  font-family: 'Playfair Display', serif;
+  height: 570px;
+  max-width: 1970px;
+
+}
+
+
+.banner .bannerBack {
+  height: auto;
+  position: absolute;
+  top: 87px;
+  z-index: -9999;
+  left: 0;
+  max-height: 570px;
+  width: 100%;
+  object-fit: cover;
+
+
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 56px;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 2rem;
+}
+
+.banner .icon_text {
+  font-size: 22px;
+  position: relative;
+  top: 29%;
+  text-align: center;
+  right: 42%;
+  z-index: 9999;
+}
+
+.banner span {
+  color: #fea100;
+}
+
+.banner_text {
+  position: relative;
+  top: 40%;
+}
+
+.banner .iconFood {
+  position: relative;
+  top: 55%;
+
+}
+
+.below_banner {
+  position: absolute;
+  top: 87%;
+  background-color: #edf1f3;
+  min-width: 100%;
+  left: 0;
+  height: 100px;
+  z-index: -2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding-right: 11rem;
+
+}
+
+.message_icon {
+  font-size: 1.7rem;
+  padding-top: 5px;
+}
+
+.below_first {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  font-weight: bolder;
+  font-family: 'Sintony', sans-serif;
+  text-align: left;
+  border-right: 1px solid #d6dbdf;
+  height: 100px;
+  margin-right: 3rem;
+  padding-right: 2rem;
+}
+
+
+
+.arrow_btn {
+  background: #fea100;
+  border: 2px solid white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: .4rem;
+}
+
+.arrow_btn_circle {
+  background: #fea100;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+
+.below_second {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  font-weight: bolder;
+  font-family: 'Sintony', sans-serif;
+  text-align: left;
+
+}
+
+.below_second span {
+  font-size: 1rem;
+}
+
+.second_phone {
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-left: 2px solid #d6dbdf;
+  margin-left: 2rem;
+  padding-left: 2rem;
+}
+
+.second_phone a {
+  color: #14141d;
+}
